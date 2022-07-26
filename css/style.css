@@ -1,0 +1,65 @@
+.carousel-item {
+  height: 32rem;
+  background: rgb(0, 0, 0);
+  color: white;
+  position: relative;
+}
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.ft-lobster {
+  font-family: "Lobster Two", cursive;
+  color: #5d0d03;
+  filter: drop-shadow(1px 4px 5px #dbe2f4);
+}
+
+.ft-lobster-it {
+  font-family: "Lobster", cursive;
+  color: #5d0d03;
+  filter: drop-shadow(1px 4px 5px #dbe2f4);
+}
+
+.btn-other-color {
+  background-color: #c3c7d0;
+  color: #5d0d03;
+  font-family: Lato;
+}
+
+.hero {
+  position: relative;
+  height: 40vh;
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero::before {
+  content: " ";
+  background-image: url(/th_bolosesalgados/img/personagens/hellenetarcila.png);
+  background-size: cover;
+  position: absolute;
+  top: -9vh;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+}

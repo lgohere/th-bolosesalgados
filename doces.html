@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>T&H Bolos e Salgados</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+  </head>
+
+  <body style="background-color: #c3c7d0">
+    <style>
+      .hero::before {
+        content: "";
+        background-image: url(/img/personagens/celebration.png);
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.1;
+      }
+    </style>
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="
+        background-image: url(../img/bolas-th-s.jpg);
+        background-size: cover;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        text-shadow: 0.5px 0px 3px #c3c7d0;
+      "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="d-inline-block align-top"
+            src="https://cdn-icons-png.flaticon.com/512/918/918234.png"
+            width="24"
+            height="24"
+          />
+          T&H Bolos e Salgados</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Quem Somos Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="salgados.html">Salgados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="doces.html">Doces</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promocoes.html">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row hero">
+        <div class="col-12 py-5">
+          <figure class="text-center">
+            <h1 class="ft-lobster-it display-1">Doces</h1>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="container-my-3 p-3">
+      <nav>
+        <div
+          class="nav nav-tabs nav-fill nav-justified pb-2"
+          id="nav-tab"
+          role="tablist"
+        >
+          <button
+            class="nav-link active"
+            id="nav-bolosredondos-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-bolosredondos"
+            type="button"
+            role="tab"
+            aria-controls="nav-bolosredondos"
+            aria-selected="true"
+          >
+            Bolos Redondos
+          </button>
+          <button
+            class="nav-link"
+            id="nav-bolosretangulares-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-bolosretangulares"
+            type="button"
+            role="tab"
+            aria-controls="nav-bolosretangulares"
+            aria-selected="false"
+          >
+            Bolos Retangulares
+          </button>
+          <button
+            class="nav-link"
+            id="nav-bolosinfantis-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-bolosinfantis"
+            type="button"
+            role="tab"
+            aria-controls="nav-bolosinfantis"
+            aria-selected="false"
+          >
+            Bolos Infantis
+          </button>
+          <button
+            class="nav-link"
+            id="nav-docinhos-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-docinhos"
+            type="button"
+            role="tab"
+            aria-controls="nav-docinhos"
+            aria-selected="false"
+          >
+            Docinhos
+          </button>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Tab Content-->
+    <div class="tab-content" id="nav-tabContent">
+      <div
+        class="tab-pane fade show active p-3"
+        id="nav-bolosredondos"
+        role="tabpanel"
+        aria-labelledby="nav-bolosredondos-tab"
+      >
+        <h2 style="text-align: center">Bolos Redondos</h2>
+        <p>Testandoooooooooooooooooo</p>
+        <!--Row 01-->
+        <div class="row">
+          <!--Gallery 01 start-->
+          <div class="col-lg-4 col-md-12 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-1.png"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 01"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-29.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 02"
+              style="height: 49%"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-3.png"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 03"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-30.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 04"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-10.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 05"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-18.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 06"
+            />
+          </div>
+        </div>
+        <!-- Gallery 01 End-->
+        <!--Row 02-->
+        <div class="row">
+          <!--Gallery 02 Start-->
+          <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-7.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 07"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-35.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 08"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-1 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-8.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 09"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-9.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 10"
+              style="height: 44.2%"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-5.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 11"
+            />
+
+            <img
+              src="/img/produtos/doces//bolos/redondos/bolo-r-11.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 12"
+            />
+          </div>
+        </div>
+        <!-- Gallery 02 End -->
+        <!--Row 03-->
+        <div class="row">
+          <!--Gallery 03 start-->
+          <div class="col-lg-4 col-md-12 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-12.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 13"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-13.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 14"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-14.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 15"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-15.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 16"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-2.png"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 17"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-19.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 18"
+            />
+          </div>
+        </div>
+        <!-- Gallery 03 End-->
+        <!--Row 04-->
+        <div class="row" style="margin-bottom: -51px">
+          <!--Gallery 04 start-->
+          <div class="col-lg-4 col-md-12 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-20.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 21"
+              style="height: 31%"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-21.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 22"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-27.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 27"
+              style="height: 31.7%"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-23.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 23"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-24.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 24"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-28.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 28"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-25.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 25"
+              style="height: 31%"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-26.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 26"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-32.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 32"
+              style="height: 30%"
+            />
+          </div>
+        </div>
+        <!-- Gallery 04 End-->
+        <!--Row 05-->
+        <div class="row">
+          <!--Gallery 05 start-->
+          <div class="col-lg-4 col-md-12 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-4.png"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 30"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-31.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 31"
+              style="height: 44.6%"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-33.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 33"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-34.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 34"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-36.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 36"
+              style="height: 40%"
+            />
+            <img
+              src="/img/produtos/doces/bolos/redondos/bolo-r-6.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo redondo 35"
+              style="height: 50.4%"
+            />
+          </div>
+        </div>
+        <!-- Gallery 05 End-->
+      </div>
+      <div
+        class="tab-pane fade p-3"
+        id="nav-bolosretangulares"
+        role="tabpanel"
+        aria-labelledby="nav-bolosretangulares-tab"
+      >
+        <h2 style="text-align: center">Bolos Retangulares</h2>
+        <p>Testandoooooooooooooooooo</p>
+        <!--Row 01-->
+        <div class="row">
+          <!--Gallery 01 start-->
+          <div class="col-lg-4 col-md-12 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/retangulares/bolo-q-1.png"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo retangular 01"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/retangulares/bolo-q-2.png"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo retangular 02"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/retangulares/bolo-q-8.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo retangular 07"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/retangulares/bolo-q-4.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo retangular 03"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/retangulares/bolo-q-5.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo retangular 04"
+              style="height: 28.9%"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/retangulares/bolo-q-6.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo retangular 05"
+            />
+
+            <img
+              src="/img/produtos/doces/bolos/retangulares/bolo-q-7.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo retangular 06"
+              style="height: 28.7%"
+            />
+          </div>
+        </div>
+        <!-- Gallery 01 End-->
+      </div>
+      <div
+        class="tab-pane fade p-3"
+        id="nav-bolosinfantis"
+        role="tabpanel"
+        aria-labelledby="nav-bolosinfantis-tab"
+      >
+        <h2 style="text-align: center">Bolos Infantis</h2>
+        <p>Testandoooooooooooooooooo</p>
+        <!--Row 1-->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-12 mb-lg-0" style="margin-bottom: -3vh">
+            <img
+              src="/img/produtos/doces/bolos/infantis/bolo-infantil.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo infantil 01"
+              style="height: 89.7%"
+            />
+          </div>
+          <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/infantis/bolo-infantil-sonic.jpeg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo infantil 02"
+            />
+          </div>
+          <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
+            <img
+              src="/img/produtos/doces/bolos/infantis/bolo-infantil-levi.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo infantil 03"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade p-3"
+        id="nav-docinhos"
+        role="tabpanel"
+        aria-labelledby="nav-docinhos-tab"
+      >
+        <h2 style="text-align: center">Docinhos</h2>
+        <p>Testandoooooooooooooooooo</p>
+        <!--Row 1-->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-12 mb-2 mb-lg-0">
+            <img
+              src="/img/produtos/salgados/bolossalgados/bolo-salgado.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="bolo salgado"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2022 T&H Bolos e Salgados
+        <p>Todos os direitos reservados</p>
+        <a class="text-reset fw-bold">(13) 981942956</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
