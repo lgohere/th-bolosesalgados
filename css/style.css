@@ -54,7 +54,7 @@
 
 .hero::before {
   content: " ";
-  background-image: url(/th_bolosesalgados/img/personagens/hellenetarcila.png);
+  background-image: url(./th_bolosesalgados/img/personagens/hellenetarcila.png);
   background-size: cover;
   position: absolute;
   top: -9vh;
