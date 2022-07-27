@@ -63,6 +63,13 @@
   left: 0px;
 }
 
+.ft-kits {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1vh;
+}
+
 .whatsapp-icon {
   z-index: 2;
   position: fixed;
