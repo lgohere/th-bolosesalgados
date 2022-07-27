@@ -63,11 +63,9 @@
   left: 0px;
 }
 
-/* @media (min-width: 576px) {
-
-  background-position-y: -15vh;
-  background-image: url(./img/personagens/hellenetarcila.png);
-  background-size: cover;
-  background-position-x: center;
-  background-repeat-y: no-repeat;
-}*/
+.whatsapp-icon {
+  z-index: 2;
+  position: fixed;
+  bottom: 5vh;
+  right: 3vh;
+}
