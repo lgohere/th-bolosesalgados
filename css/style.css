@@ -45,7 +45,6 @@
   position: relative;
   height: 40vh;
   margin: 0;
-  padding: 0%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -57,9 +56,18 @@
   background-image: url(./img/personagens/hellenetarcila.png);
   background-size: cover;
   position: absolute;
+  background-position: center;
   top: -9vh;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.1;
 }
+
+/* @media (min-width: 576px) {
+
+  background-position-y: -15vh;
+  background-image: url(./img/personagens/hellenetarcila.png);
+  background-size: cover;
+  background-position-x: center;
+  background-repeat-y: no-repeat;
+}*/
