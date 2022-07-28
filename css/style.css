@@ -32,11 +32,12 @@
 .ft-lobster-it {
   font-family: "Lobster", cursive;
   color: #5d0d03;
-  filter: drop-shadow(1px 4px 5px #dbe2f4);
+  filter: drop-shadow(1px 1px 0px #dbe2f4);
+  text-shadow: 0px 1px 1px #c3a98f;
 }
 
 .btn-other-color {
-  background-color: #c3c7d0;
+  background: linear-gradient(181deg, #ffce3b, #e98b00);
   color: #5d0d03;
   font-family: Lato;
 }
@@ -75,4 +76,13 @@
   position: fixed;
   bottom: 5vh;
   right: 3vh;
+  filter: drop-shadow(0px 2px 1px black);
+}
+
+/* No setor de Promoções */
+.mask-custom {
+  border-radius: 2em;
+  backdrop-filter: blur(15px);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
